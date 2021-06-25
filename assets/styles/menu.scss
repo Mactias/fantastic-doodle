@@ -1,0 +1,29 @@
+div#navigation {
+  text-align: center;
+}
+
+div#menu-div {
+  background-color: #f3f3f3;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  a {
+    color: #666;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    &:hover:not(.active) {
+      background-color: #ddd;
+    }
+
+    .active {
+      color: red;
+      background-color: #4CAF50;
+    }
+  }
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}

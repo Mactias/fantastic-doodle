@@ -1,0 +1,19 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+
+about:
+    path: /about
+    controller: App\Controller\DefaultController::about
+
+menu:
+    path: /menu
+    controller: App\Controller\DefaultController::menu
+
+open:
+    path: /opening-hours
+    controller: App\Controller\DefaultController::openingHours
+
+contact:
+    path: /contact
+    controller: App\Controller\DefaultController::contact
